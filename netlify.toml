@@ -3,7 +3,7 @@
   YARN_VERSION = "1.22.17"
 
 [build]
-  command = "yarn build"
+   command = "npm run build:hugo"
   publish = "dist"
 
 [context.deploy-preview]
